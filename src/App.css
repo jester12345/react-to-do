@@ -1,0 +1,49 @@
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  flex-shrink: 1;
+  min-width: 500px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-header .fa {
+  font-size: 5rem;
+  color: springgreen;
+}
+
+.App-add-form {
+  margin-top: 2rem;
+  font-size: large;
+}
+
+.App-add-form form {
+  display: flex;
+}
+
+.App-add-form form > * {
+  flex-grow: 1;
+}
+
+.App-add-form form .add-label {
+  padding-left: 0;
+}
+
+.App-add-form form .add-button {
+  margin-left: 20px;
+}
+
+.App-items .remove:hover {
+  color: red;
+}

@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font: 17px/1.5 'Open Sans', sans-serif;
+  text-transform: lowercase;
+}
